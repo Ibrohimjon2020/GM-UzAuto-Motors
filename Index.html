@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Moshinalar</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container-fluid">
+		<center>
+			<img src="img/motors_logo/motors-logo.jpg">
+		
+		<ul class="type_car">
+			<li><a href="#" class="malibu_btn">Malibu</a></li>
+			<li><a href="#" class="gentra_btn">Gentra</a></li>
+			<li><a href="#" class="traker_btn">Trekker</a></li>
+		</ul>
+		</center>
+	</div>
+	
+ <div class="container">
+ 	<center>
+ 		<!-- Malibu uchun -->
+ 		<div class="hide malibu">
+ 			<div class="btn_pozitsiya">
+<table>
+	<tr>
+		<td>
+		<input type="radio" id="1-positsiya_malibu" value="1400" name="positsiya_malibu" class="" checked>
+        <label for="1-positsiya_malibu">1-positsiya</label>
+	    </td>
+	
+    </tr>
+  	<tr>
+  		<td>
+  			<input type="radio" id="2-positsiya_malibu" name="positsiya_malibu" value="2000" >
+    		<label for="2-positsiya_malibu">2-positsiya</label>
+  		</td>
+	</tr>
+	<tr>
+		<td>
+			<input type="radio" id="3-positsiya_malibu" name="positsiya_malibu" value="1100"  >
+        	<label for="3-positsiya_malibu">3-positsiya</label>
+		</td>
+	</tr>
+
+</table>
+
+
+ 			<!-- <button type="submit" class="btn btn-info m-60">1-positsiya</button>
+ 			<button type="submit" class="btn btn-info m-60">2-positsiya</button>
+ 			<button type="submit" class="btn btn-info m-60">3-positsiya</button>
+ 			<button type="submit" class="btn btn-success m-60">avtomat-karobka</button>
+ 			<button type="submit" class="btn btn-success m-60">mexanik-karobka</button>
+ 			<button type="submit" class="btn btn-danger m-60">Gaz balon</button> -->
+
+ 			</div>
+ 	<img id="img" src="img/Malibu/oq.png">
+ 	<button class="btn btn-danger" type="submit" name="hidden_all_prise">Jami</button>
+ 	Jami:<span id="jami_prise"></span>
+ 	<p>Narx: <span id="price_malibu"></span></p>
+ 	<div class="rang_malibu">
+ 	<div data-color="img/Malibu/qora.png" data-narx="10000" class="qora color" name="malibu_rang_prise"></div>
+ 	<div data-color="img/Malibu/malochni.png" data-narx="10600" class="malochni color"  name="malibu_rang_prise"></div>
+ 	<div data-color="img/Malibu/oq.png" data-narx="9800" class="oq color"  name="malibu_rang_prise"></div>
+ 	</div>
+ 	</div>
+ 		<!-- ./Malibu uchun -->
+
+<!-- Gentra -->
+<div class=" gentra">
+	<table>
+	<tr>
+		<td>
+		<input type="radio" id="1-positsiya_gentra" value="3000" name="positsiya_gentra" class="" checked>
+        <label for="1-positsiya_gentra">1-positsiya</label>
+	    </td>
+	
+    </tr>
+  	<tr>
+  		<td>
+  			<input type="radio" id="2-positsiya_gentra" name="positsiya_gentra" value="3200" >
+    		<label for="2-positsiya_gentra">2-positsiya</label>
+  		</td>
+	</tr>
+	<tr>
+		<td>
+			<input type="radio" id="3-positsiya_gentra" name="positsiya_gentra" value="3400"  >
+        	<label for="3-positsiya_gentra">3-positsiya</label>
+		</td>
+	</tr>
+
+</table>
+ 	<img id="img_lasetti" src="img/Lasetti/oq.png">
+ 	<p>Narx: <span id="price_gentra"></span></p>
+ 	<div class="rang_gentra">
+ 	<div data-color="img/Lasetti/malochni.png" data-narx="454" class="malochni color_1"></div>
+ 	<div data-color="img/Lasetti/mativiy.png" data-narx="654" class="mativiy color_1"></div>
+ 	<div data-color="img/Lasetti/och_havo_rang.png" data-narx="26" class="och_havo_rang color_1"></div>
+ 	<div data-color="img/Lasetti/oq.png" data-narx="876" class="oq color_1"></div>
+ 	<div data-color="img/Lasetti/qora.png" data-narx="8765" class="qora color_1"></div>
+ 	<div data-color="img/Lasetti/shikalad.png" data-narx="876" class="shikalad color_1"></div>
+ 	<div data-color="img/Lasetti/toq_qizil.png" data-narx="2345" class="toq_qizil color_1"></div>
+ 	<div data-color="img/Lasetti/toq_kulrang.png" data-narx="876543" class="toq_kulrang color_1"></div>
+ 	<div data-color="img/Lasetti/to'q_malochni.png" data-narx="1" class="to'q_malochni color_1"></div>
+ 	</div>
+ 	</div>
+<!-- ./Gentra -->
+
+<!-- Traker -->
+<div class="hide traker">
+	<table>
+	<tr>
+		<td>
+		<input type="radio" id="1-positsiya_traker" value="5600" name="positsiya_traker" class="" checked>
+        <label for="1-positsiya_traker">1-positsiya</label>
+	    </td>
+	
+    </tr>
+  	<tr>
+  		<td>
+  			<input type="radio" id="2-positsiya_traker" name="positsiya_traker" value="5800" >
+    		<label for="2-positsiya_traker">2-positsiya</label>
+  		</td>
+	</tr>
+	<tr>
+		<td>
+			<input type="radio" id="3-positsiya_traker" name="positsiya_traker" value="6000"  >
+        	<label for="3-positsiya_traker">3-positsiya</label>
+		</td>
+	</tr>
+
+</table>
+ 	<img id="img_traker" src="img/traker/moviy.png">
+ 	<p>Narx: <span id="price_traker"></span></p>
+ 	<div class="rang_traker">
+ 	<div data-color="img/traker/ko'k.png" data-narx="10000" class="ko'k color_2"></div>
+ 	<div data-color="img/traker/malochni.png" data-narx="10000" class="malochni color_2"></div>
+ 	<div data-color="img/traker/oq.png" data-narx="10000" class="oq color_2"></div>
+ 	<div data-color="img/traker/qora.png" data-narx="10000" class="qora color_2"></div>
+ 	<div data-color="img/traker/to'q_kulrang.png" data-narx="10000" class="to'q_kulrang color_2"></div>
+ 	</div>
+ 	</div>
+<!-- ./Traker -->
+ 	</center>
+ 	<div class="price"></div>
+ 	
+ </div>
+<div class="footer"></div>
+
+<script src="Js/jQuery.js"></script>
+<script src="Js/main.js"></script>
+</body>
+</html>
